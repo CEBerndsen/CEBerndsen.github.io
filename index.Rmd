@@ -1,0 +1,12 @@
+---
+title: "Biochemistry and Plots"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+*Biochemistry and Plots* is an outlet for me to share with my students and the public fun insights in Biochemistry and data. I will add new posts or information as I have time and the interest. 
+
+You can also see what is going on with me and the lab via [Twitter](https://twitter.com/kcat_km).
+
