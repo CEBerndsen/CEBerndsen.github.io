@@ -1,5 +1,5 @@
 ---
-title: "teaching"
+title: "Teaching"
 output: 
   html_document:
     toc: true
@@ -33,4 +33,4 @@ In addition to the above, I have written resources for students on certain topic
 
 [Circular Dichroism](CEBerndsen.github.io/CD.html)
 
-[Basics of Data fitting and figures](CEBerndsen.github.io/Data_fitting.html)
+[Basics of Data fitting and figures](CEBerndsen.github.io/Data_Fitting.html)
