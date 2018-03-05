@@ -11,7 +11,7 @@
 
 
 
-<title>About</title>
+<title>teaching</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -163,6 +166,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -204,21 +302,35 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About</h1>
+<h1 class="title toc-ignore">teaching</h1>
 
 </div>
 
 
-<p>Established in 2012 at James Madison University in the Department of Chemistry and Biochemistry,the lab is focused on the determining the enzymatic mechanism(s) of acyl transfer and the structural mechanism of viral tethering.</p>
-<p>There are positions in the lab for undergraduate research assistants, please contact Dr. Berndsen if you are interested in more information.</p>
-<p>You can also see what is going on with the lab via <a href="https://twitter.com/kcat_km">Twitter</a>.</p>
-<div class="figure">
-<img src="images/DSC_0869.jpg" alt="Berndsen after getting pied by a student. Photo courtesy of Dr. Cay Adkins" />
-<p class="caption">Berndsen after getting pied by a student. <em>Photo courtesy of Dr. Cay Adkins</em></p>
+<p>In classes and instructional laboratories, I am interested in finding ways for students to apply and share their knowledge and enthusiasm for Biochemistry in the “real world”. These activities support the <a href="https://www.jmu.edu/chemistry/">JMU Department of Chemistry and Biochemistry’s</a> mission for students to: “Have broad-based problem-solving and communication skills that foster successful career transitions as the scientific community responds to global changes.” Through projects such as those described below students gain more experience as scientists and greater depth of knowledge in the field.</p>
+<div id="course-based-undergraduate-research-experiences" class="section level2">
+<h2>Course-based Undergraduate Research Experiences</h2>
+<p>In this project, students determine the molecular basis for a phenotype modeling a protein structure containing an uncharacterized mutation. This provides a research-based learning experience for the students and helps them apply their lecture knowledge to a new system. An early description of this project can be found in <a href="http://onlinelibrary.wiley.com/doi/10.1002/bmb.20976/abstract"><em>Biochemistry and Molecular Biology Education</em></a>.</p>
+<p>Currently, I am continuing to develop infrastructure and lessons to make this type of activity successful in large lecture classes of &gt;75 students. I am grateful to the <a href="https://osf.io/">Open Science Framework</a> for providing a collaborative space for students to work on this project.</p>
+</div>
+<div id="shiny-apps" class="section level2">
+<h2>Shiny Apps</h2>
+<p>Students in Biochemistry use a variety of resources in class including <a href="https://ceberndsen.github.io/shiny.html">web-based apps</a> which simulate biochemical experiments. Students learn how to interpret the basics of these data and how to display data for each technique. This is an ongoing project.</p>
+</div>
+<div id="proteopedia" class="section level2">
+<h2>Proteopedia</h2>
+<p>Students in Biochemistry I often create <a href="http://proteopedia.org/wiki/index.php/Main_Page">Proteopedia</a> pages explaining various topics of their choosing related to protein biochemistry and structure. This activity help students apply their knowledge of protein structure and function from class using examples in the literature and gain practice explaining complex science to a general audience.</p>
+<p>A full <a href="http://proteopedia.org/wiki/index.php/Christopher_Berndsen/Proteopedia">list</a> of previous student projects can be found here.</p>
+</div>
+<div id="web-based-resources" class="section level2">
+<h2>Web-based resources</h2>
+<p>In addition to the above, I have written resources for students on certain topics. This list will expand with time and need.</p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 

@@ -11,6 +11,8 @@ navbar:
     href: shiny.html
   - text: Research
     href: research.html
+  - text: Teaching
+    href: teaching.html
 output:
   html_document:
     lib_dir: site_libs

@@ -1,0 +1,32 @@
+---
+title: "teaching"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+In classes and instructional laboratories, I am interested in finding ways for students to apply and share their knowledge and enthusiasm for Biochemistry in the "real world". These activities support the [JMU Department of Chemistry and Biochemistry's](https://www.jmu.edu/chemistry/) mission for students to: "Have broad-based problem-solving and communication skills that foster successful career transitions as the scientific community responds to global changes." Through projects such as those described below students gain more experience as scientists and greater depth of knowledge in the field.
+
+## Course-based Undergraduate Research Experiences
+
+In this project, students determine the molecular basis for a phenotype modeling a protein structure containing an uncharacterized mutation. This provides a research-based learning experience for the students and helps them apply their lecture knowledge to a new system. An early description of this project can be found in [*Biochemistry and Molecular Biology Education*](http://onlinelibrary.wiley.com/doi/10.1002/bmb.20976/abstract). 
+
+Currently, I am continuing to develop infrastructure and lessons to make this type of activity successful in large lecture classes of >75 students. I am grateful to the [Open Science Framework](https://osf.io/) for providing a collaborative space for students to work on this project. 
+
+## Shiny Apps
+
+Students in Biochemistry use a variety of resources in class including [web-based apps](https://ceberndsen.github.io/shiny.html) which simulate biochemical experiments. Students learn how to interpret the basics of these data and how to display data for each technique. This is an ongoing project. 
+
+
+## Proteopedia
+
+Students in Biochemistry I often create [Proteopedia](http://proteopedia.org/wiki/index.php/Main_Page) pages explaining various topics of their choosing related to protein biochemistry and structure. This activity help students apply their knowledge of protein structure and function from class using examples in the literature and gain practice explaining complex science to a general audience. 
+
+A full [list](http://proteopedia.org/wiki/index.php/Christopher_Berndsen/Proteopedia) of previous student projects can be found here.
+
+## Web-based resources
+
+In addition to the above, I have written resources for students on certain topics.  This list will expand with time and need.
+
+
