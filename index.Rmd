@@ -10,3 +10,8 @@ output:
 
 You can also see what is going on with me and the lab via [Twitter](https://twitter.com/kcat_km).
 
+We also occasionally post new materials on [Github](https://github.com/CEBerndsen).
+
+
+
+![Lab students spelling BERNDSEN. ](images/BERNDSEN.png)
