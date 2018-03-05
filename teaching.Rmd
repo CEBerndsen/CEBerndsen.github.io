@@ -29,4 +29,8 @@ A full [list](http://proteopedia.org/wiki/index.php/Christopher_Berndsen/Proteop
 
 In addition to the above, I have written resources for students on certain topics.  This list will expand with time and need.
 
+[Fitting Saturation curves](CEBerndsen.github.io/satcurvefitting.html)
 
+[Circular Dichroism](CEBerndsen.github.io/CD.html)
+
+[Basics of Data fitting and figures](CEBerndsen.github.io/Data_fitting.html)

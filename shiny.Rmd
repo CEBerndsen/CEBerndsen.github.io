@@ -5,8 +5,11 @@ output: html_document
 
 In the course of developing materials for Biochemistry, I decided to convert an Excel based simulator over to a r Shiny app, which lead to the task of developing number of apps. As the apps come online at shinyapps.io, they will be linked here along with links to teaching materials developed for the apps. This is a long term work in-progress so be patient. If you have problems with any app submit a pull request on the respective GitHub repo.
 
+***
+
 [CD spectra simulator](https://berndsen.shinyapps.io/cdapp/)
 
 [CD app GitHub Repo](https://github.com/CEBerndsen/CDapp)
 
+***
 
