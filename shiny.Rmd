@@ -1,9 +1,9 @@
 ---
-title: "Shiny Apps"
+title: "Shiny Apps for Biochemistry"
 output: html_document
 ---
 
-In the course of developing materials for Biochemistry, I decided to convert an Excel based simulator over to a r Shiny app, which lead to the task of developing number of apps. As the apps come online at shinyapps.io, they will be linked here along with links to teaching materials developed for the apps. This is a long term work in-progress so be patient. If you have problems with any app submit a pull request on the respective GitHub repo.
+In the course of developing materials for Biochemistry, I decided to convert an Excel based simulator over to a r Shiny app, which lead to the task of developing number of apps. As the apps come online at shinyapps.io, they will be linked here along with links to teaching materials developed for the apps. This is a long term work in-progress so be patient. If you have problems with any app submit a pull request on the respective GitHub repository.
 
 ***
 
@@ -13,3 +13,14 @@ In the course of developing materials for Biochemistry, I decided to convert an 
 
 ***
 
+**COMING SOON!**
+
+Enzyme Kinetics app
+
+FRET/Fluorescence app
+
+Enzyme inhibition app
+
+Draw Proteins app
+
+Making Figures in Biochemistry app
