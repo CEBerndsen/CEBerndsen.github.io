@@ -11,7 +11,7 @@
 
 
 
-<title>Research</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,9 +19,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -166,101 +163,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -302,7 +204,6 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Research</h1>
 
 </div>
 
@@ -313,6 +214,10 @@ div.tocify {
 <p>A complete <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=berndsen+ce">list</a> of publications from the lab or on <a href="https://scholar.google.com/citations?user=H5dU9y4AAAAJ&amp;hl=en">Google Scholar</a>.</p>
 <p>The Berndsen lab is also associated with the <a href="http://www.jmu.edu/genomics/">JMU Center for Genome and Metagenome Studies</a>.</p>
 <hr />
+<div class="figure">
+<img src="images/vip.png" alt="Model and SAXS fit of Legionella VipF from Young, et al., 2016" />
+<p class="caption">Model and SAXS fit of <em>Legionella</em> VipF from Young, <em>et al.</em>, 2016</p>
+</div>
 <div id="enzymatic-mechanism-of-acyl-transfer" class="section level2">
 <h2>Enzymatic Mechanism of Acyl Transfer</h2>
 <p>Cellular proteins are often modified with chemical moieties such as phosphate or methyl groups in order to alter the function of these proteins in response to changes in the environment or during the cell cycle. Two of these post-translational modifications, acetylation and ubiquitination, involve a reaction of a thioester with an amine. While the reaction chemistry is straightforward, the enzymatic mechanism of transfer is not clear and there are a variety of protein structures that can do this chemistry. We aim to determine the catalytic mechanism of these enzymes via biochemical and structural methods to understand:</p>
@@ -323,19 +228,23 @@ div.tocify {
 <li><p>how substrate specificity is encoded by the enzyme</p></li>
 </ul>
 <p>Current projects are focused on ubiquitin/ubiquitin-like activating enzymes, cleavage of ubiquitin precursors, and enzymatic modification of protein lysines.</p>
-<div id="previous-work-by-the-lab-on-this-project" class="section level3">
-<h3>Previous work by the lab on this project:</h3>
+<div id="previous-work-by-the-lab-on-this-project" class="section level4">
+<h4>Previous work by the lab on this project:</h4>
 <p>(undergraduate authors are indicated in <strong>bold</strong>)</p>
 <p>Padala P, Oweis W, Mashahreh B, Soudah N, Cohen-Kfir E, <strong>Todd EA</strong>, Berndsen CE, Wiener R. Novel insights into the interaction of UBA5 with UFM1 via a UFM1-interacting sequence. Sci Rep. 2017 Mar 30;7(1):508. doi: 10.1038/s41598-017-00610-0. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5428781/">PMID: 28360427</a></p>
 <p><strong>Young BH</strong>, <strong>Caldwell TA</strong>, <strong>McKenzie AM</strong>, Kokhan O, Berndsen CE. (2016) Characterization of the structure and catalytic activity of Legionella pneumophila VipF. Proteins. Oct;84(10):1422-30. <a href="http://onlinelibrary.wiley.com/doi/10.1002/prot.25087/abstract">doi: 10.1002/prot.25087.</a> PMID: 27315603</p>
 <p>Oweis W, Padala P, Hassouna F, Cohen-Kfir E, <strong>Gibbs DR</strong>, <strong>Todd EA</strong>, Berndsen CE, Wiener R. (2016) Trans-Binding Mechanism of Ubiquitin-like Protein Activation Revealed by a UBA5-UFM1 Complex. Cell Rep. Sep 20;16(12):3113-20. <a href="https://www.sciencedirect.com/science/article/pii/S2211124716311482?via%3Dihub">doi: 10.1016/j.celrep.2016.08.067.</a> PMID: 27653677</p>
+<div class="figure">
+<img src="images/transitionshuman.png" alt="Simulated pulling of human Tetherin from Ozcan and Berndsen, 2017" />
+<p class="caption">Simulated pulling of human Tetherin from Ozcan and Berndsen, 2017</p>
+</div>
 </div>
 </div>
 <div id="viral-tethering-by-human-tetherin" class="section level2">
 <h2>Viral Tethering by human Tetherin</h2>
 <p>All humans contain a simple protein known as BST-2 or Tetherin which has the innate ability to latch onto budding viruses and tether the virus to the host cell membrane. Other than a mechanical tether, there are no known functions for Tetherin and it is not exactly clear how this protein functions. We combine biophysical and computational approaches to determine the structural mechanism of viral tethering and how viral antagonists block the function of Tetherin</p>
-<div id="previous-work-by-the-lab-on-this-project-1" class="section level3">
-<h3>Previous work by the lab on this project:</h3>
+<div id="previous-work-by-the-lab-on-this-project-1" class="section level4">
+<h4>Previous work by the lab on this project:</h4>
 <p>(undergraduate authors are indicated in <strong>bold</strong>)</p>
 <p><strong>Ozcan KA</strong>, Berndsen CE Bending of the BST-2 coiled-coil during viral budding. (2017) Proteins. 2017 Aug 4. <a href="http://onlinelibrary.wiley.com/doi/10.1002/prot.25362/abstract;jsessionid=2584DD9CB5C8BCDCDCB6CF95A2DE368F.f02t04">doi: 10.1002/prot.25362.</a> or <a href="https://www.biorxiv.org/content/early/2017/07/11/160242">BioRxiv</a></p>
 <p><strong>Du Pont KE</strong>, <strong>McKenzie AM</strong>, Kokhan O, Sumner I, Berndsen CE. (2016) The Disulfide Bonds within BST-2 Enhance Tensile Strength during Viral Tethering. Biochemistry. Feb 16;55(6):940-7. <a href="https://pubs.acs.org/doi/10.1021/acs.biochem.5b01362">doi: 10.1021/acs.biochem.5b01362.</a></p>
@@ -356,8 +265,6 @@ div.tocify {
 
 
 
-</div>
-</div>
 
 </div>
 
