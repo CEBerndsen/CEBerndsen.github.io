@@ -17,7 +17,7 @@ The Berndsen lab is also associated with the [JMU Center for Genome and Metageno
 
 ***
 
-![Model and SAXS fit of *Legionella* VipF from Young, *et al.*, 2016](images\vip.png)
+![Model and SAXS fit of *Legionella* VipF from Young, *et al.*, 2016](images\vip.png){ width=30% }
 
 ##Enzymatic Mechanism of Acyl Transfer
 
@@ -43,7 +43,7 @@ Padala P, Oweis W, Mashahreh B, Soudah N, Cohen-Kfir E, **Todd EA**, Berndsen CE
 Oweis W, Padala P, Hassouna F, Cohen-Kfir E, **Gibbs DR**, **Todd EA**, Berndsen CE, Wiener R. (2016) Trans-Binding Mechanism of Ubiquitin-like Protein Activation Revealed by a UBA5-UFM1 Complex. Cell Rep. Sep 20;16(12):3113-20. [doi: 10.1016/j.celrep.2016.08.067.](https://www.sciencedirect.com/science/article/pii/S2211124716311482?via%3Dihub) PMID: 27653677
 
 
-![Simulated pulling of human Tetherin from Ozcan and Berndsen, 2017](images\transitionshuman.png)
+![Simulated pulling of human Tetherin from Ozcan and Berndsen, 2017](images\Transitionshuman.png){ width=30% }
 
 ## Viral Tethering by human Tetherin
 
