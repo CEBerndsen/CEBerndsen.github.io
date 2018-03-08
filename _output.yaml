@@ -1,5 +1,6 @@
 html_document:
   self_contained: false
+  lib_dir: site_libs
   theme: flatly
   highlight: textmate
   
