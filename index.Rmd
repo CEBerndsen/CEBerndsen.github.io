@@ -1,9 +1,7 @@
 ---
 title: "Squiggles, Assays, and Plots"
-output:
-  html_document:
-    toc: true
-    toc_float: true
+output: html_document
+   
 ---
 
 ![](images\Madison.png){ width=50% }

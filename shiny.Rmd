@@ -1,5 +1,5 @@
 ---
-title: "Shiny Apps for Biochemistry"
+title: ""
 output: html_document
 ---
 
@@ -24,3 +24,10 @@ Enzyme inhibition app
 Draw Proteins app
 
 Making Figures in Biochemistry app
+
+***
+
+In addition, the lab has several R scripts available on [GitHub](https://github.com/CEBerndsen).
+
+***
+
