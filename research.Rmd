@@ -5,15 +5,19 @@
     
 ---
 
-The Berndsen lab is interested in two areas: the enzymatic mechanisms of acyl transfer and viral tethering by the protein Tetherin. Lab projects on these topics use a variety of techniques and approaches from measurement of enzyme activity to observing protein structure  through X-ray crystallography and computational methods. 
+The Berndsen lab is interested in two areas: the enzymatic mechanisms of acyl transfer and viral tethering by the protein Tetherin. Lab projects on these topics use a variety of techniques and approaches from measurement of enzyme activity to observing protein structure through X-ray crystallography and computational methods. 
 
 We also work with collaborators on and off campus to help answer questions involving protein structure and function. 
 
 There are several opportunities for undergraduate students to perform research in the lab both during the academic year and summer, please contact Dr. Berndsen for more information.
 
-A complete [list](https://www.ncbi.nlm.nih.gov/pubmed/?term=berndsen+ce) of publications from the lab or on [Google Scholar](https://scholar.google.com/citations?user=H5dU9y4AAAAJ&hl=en).
+A complete [list](https://www.ncbi.nlm.nih.gov/pubmed/?term=berndsen+ce) of publications from the lab or on [Google Scholar](https://scholar.google.com/citations?user=H5dU9y4AAAAJ&hl=en). 
+
+We also post data for certain projects on [OSF](https://osf.io/zb3xk/). 
 
 The Berndsen lab is also associated with the [JMU Center for Genome and Metagenome Studies](http://www.jmu.edu/genomics/).
+
+
 
 ***
 
