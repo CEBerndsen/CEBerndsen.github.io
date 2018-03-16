@@ -14,6 +14,12 @@ In this project, students determine the molecular basis for a phenotype modeling
 
 Currently, I am continuing to develop infrastructure and lessons to make this type of activity successful in large lecture classes of >75 students. I am grateful to the [Open Science Framework](https://osf.io/) for providing a collaborative space for students to work on this project. 
 
+#### Recent publications using data from CUREs
+
+**Hossain, RA, Dunham, NR**, Enke RA, Berndsen CE, In silico modeling of epigenetic-induced changes in photoreceptor cis-regulatory elements, Molecular Vision 2018; 24:218-230 ![link](http://www.molvis.org/molvis/v24/218/)
+
+Berndsen CE, **Young BH**, **McCormick QJ**, Enke RA. Connecting common genetic polymorphisms to protein function: A modular project sequence for lecture or lab.  Biochem Mol Biol Educ. 2016 Nov 12;44(6):526-536. doi: [10.1002/bmb.20976.](http://onlinelibrary.wiley.com/doi/10.1002/bmb.20976/abstract;jsessionid=E705E1670A6276D4A8CEA66DEC1892F8.f02t04) Epub 2016 Jun 9. PMID: 27277577
+
 ## Shiny Apps
 
 Students in Biochemistry use a variety of resources in class including [web-based apps](https://ceberndsen.github.io/shiny.html) which simulate biochemical experiments. Students learn how to interpret the basics of these data and how to display data for each technique. This is an ongoing project. 
