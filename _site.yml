@@ -1,7 +1,7 @@
-name: Biochemistry and Plots
+name: Berndsen Lab Website
 output_dir: '.'
 navbar:
-  title: Biochemistry and Plots
+  title: Berndsen Lab Website
   left:
   - text: Home
     href: index.html
