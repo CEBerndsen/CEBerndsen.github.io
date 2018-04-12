@@ -1,13 +1,13 @@
 ---
-title: "Squiggles, Assays, and Plots"
+title: "Berndsen Lab website"
 output: html_document
    
 ---
 
-![](images\Madison.png){ width=50% }
+![](images\Madison.png){ width=20% }
 
 
-*Squiggles, Assays, and Plots* is an outlet for me to share with my students and the public fun insights in Biochemistry and data. I will add new posts or information as I have time and the interest. 
+This website is an outlet for me to share with my students and the public fun insights in Biochemistry and data. I will add new posts or information as I have time and the interest. 
 
 You can also see what is going on with me and the lab via [Twitter](https://twitter.com/kcat_km).
 
