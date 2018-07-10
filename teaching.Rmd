@@ -12,7 +12,7 @@ In classes and instructional laboratories, I am interested in finding ways for s
 
 In this project, students determine the molecular basis for a phenotype modeling a protein structure containing an uncharacterized mutation. This provides a research-based learning experience for the students and helps them apply their lecture knowledge to a new system. An early description of this project can be found in [*Biochemistry and Molecular Biology Education*](http://onlinelibrary.wiley.com/doi/10.1002/bmb.20976/abstract). 
 
-Currently, I am continuing to develop infrastructure and lessons to make this type of activity successful in large lecture classes of >75 students. I am grateful to the [Open Science Framework](https://osf.io/) for providing a collaborative space for students to work on this project. 
+Currently, I am continuing to develop infrastructure and lessons to make this type of activity successful in large lecture classes of >75 students. I am grateful to the [Open Science Framework](https://osf.io/) for providing a collaborative space for students to work on this project. [This presentation](https://ceberndsen.github.io/OSF-CGEMS-present-2018/#1) from the 2018 CGEMS workshop shows some of the basic ideas of using OSF for lab and lecture management.
 
 #### Recent publications using data from CUREs
 
