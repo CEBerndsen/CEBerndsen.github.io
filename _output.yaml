@@ -3,4 +3,3 @@ html_document:
   lib_dir: site_libs
   theme: flatly
   highlight: textmate
-  
